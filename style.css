@@ -1,0 +1,193 @@
+body{
+    margin:0;
+}
+
+.navigation-menu{
+    font-family: 'Encode Sans SC', sans-serif;
+    overflow: hidden;
+    background-color: purple;
+}
+.nav-items{
+    margin-left:36.7%;
+}
+
+.navigation-menu a{
+    float: left;
+    color: white;
+    text-align: center;
+    margin: 2px;
+    display: flex;
+    border: 2px solid lightsalmon;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navigation-menu a:hover{
+    background-color: pink;
+    color: black;
+}
+  
+.navigation-menu a.active{
+    background-color: violet;
+    color: black;
+}
+#title-sentence{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Otomanopee One', sans-serif;
+    color: purple;
+}
+.text-positioning{
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 15%;
+}
+
+.word-color-violet{
+    color: violet;
+}
+.half-width{
+    width: 40%;
+    
+}
+
+.flex-container{
+    display: flex;
+}
+
+.page-buttons{
+    text-decoration: none;
+    color: white;
+    border: 5px;
+    border-radius: 35px;
+    padding: 18px 30px;
+    background-image: linear-gradient(to right, violet, purple);
+    box-shadow:5px 5px 45px 1px lightpink;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+#top-pg-img{
+    width: 100%;
+}
+#my-pic{
+    width: 80%;
+    height: 100%;
+}
+
+h2{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 30px;
+}
+.mid-page{
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}
+#recipe-title{
+    text-align: center;
+    padding-top: 5%;
+    color: grey;
+}
+
+.one-third{
+    width: 28%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 5px 10px 35px lightpink;
+    margin: 3%;
+    border-radius: 15px;
+
+}
+.food-pic{
+    width: 100%;
+    border-radius:15px;
+}
+
+.follow-sec{
+    padding-left: 10%;
+    padding-right: 5%;
+    box-shadow: 5px 10px 35px lightpink;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    border-radius: 15px;
+}
+.recipes-sec{
+    margin-bottom: 5%;
+}
+.one-third-follow{
+    width: 28%;
+    padding-top: 0%;
+    padding-left: 6%;
+    padding-right: 2%;
+}
+.follow-num{
+    font-size: 50px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+footer{
+    background-color: black;
+    bottom: 0;
+    height: 262px;
+}
+
+.follow-ref{
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+#footer-id{
+    padding-top: 3%;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+#footer-para{
+    color: white;
+    text-align: center;
+    padding-bottom: 6%;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-dribbble {
+    background: #ea4c89;
+    color: white;
+}
+.social-icons{
+    padding-left: 42.4%;
+}
+
+#follow-us{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+}
